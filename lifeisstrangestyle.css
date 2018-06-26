@@ -1,0 +1,53 @@
+﻿.header {
+    background-color: hotpink;
+}
+
+img {
+    height: 8vh;
+    margin: 1vh;
+}
+
+.nav, .navbar-nav, navbar {
+    background-color: darkred;
+}
+
+    .nav > ul {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        color: white;
+        font-size: 3vh;
+        margin: 1vh;
+        margin-left: 2vw;
+    }
+    .nav-link{
+color:white;
+     }
+
+.navbar {
+    color: white;
+}
+
+ul > li {
+    margin-left: 2vw;
+}
+
+a {
+    color: white;
+    font-size: 2vh;
+    font-family: 'Comic Sans MS';
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-image: url("images/junkyard.jpg");
+    background-size: cover;
+}
+
+    .content > iframe {
+        margin-top: 20vh;
+        margin-right: 2vw;
+        margin-bottom: 20vh;
+    }
